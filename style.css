@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: greenyellow;
+  color: #000;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: blue;
+  text-decoration: none;
+  transition: all ease 1s;
+}
+
+a:hover {
+  color: #f00;
+  text-decoration: underline;
+  transition: all ease 2s;
+}
+
+a:hover:after {
+  content: "⭐️";
+}
+
+#bloque {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: calc(80% - 4rem);
+    margin: auto;
+    padding: 2%;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 1rem;
+    box-shadow: 0 0 30px white;
+    z-index: 9999;
+}
+
+
+h1, h2, span.xmas {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+span.xmas {
+  color: rgba(0, 46, 255, 1.0);
+}
+
+h1 {
+  font-size: calc(3rem + 5vw);
+}
+
+h2 {
+  font-size: calc(1rem + 2vw);
+}
+
+.xmas {
+  font-family: "Pixelify Sans", sans-serif;
+}
+
+
+/* .2 es la transparencia es 20 %
+
+
+identidad es solo 1 dentro de una class, las class se pueden repetir las veces q sean necesario
+
+la coma es para decir como tanto esto como esto quiero que hagas esto
+
+si pongo solo h1 span es el span del h1
+
+span es como un grupito random distinto de lo demas
+
+padding es hacia adentro, el margin es hacia afuera 
+
+hola buenas así se hace un comentario
+
+canvas {
+  display: block;
+}
+
+*/
